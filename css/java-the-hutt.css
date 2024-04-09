@@ -1,0 +1,234 @@
+:root {
+    --navbar-width: 280px;
+}
+body {
+    
+}
+
+/* Typography */
+
+p {
+    color: #D7D5C1;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.glow {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #D7D5C1, 0 0 70px #D7D5C1, 0 0 80px #D7D5C1, 0 0 100px #D7D5C1, 0 0 150px #D7D5C1;
+
+}
+
+a {
+    text-decoration: none;
+}
+/* //Typography */
+
+/* DISPLAY SETUP */
+.full-display-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(211, 211, 211, 0.2);
+    background-image: url(../images/test4.jpg);
+    background-size: cover;
+
+}
+/* //DISPLAY SETUP */
+
+
+img {
+    width: 100%;
+}
+
+
+
+
+.review-card-bg {
+    background: linear-gradient(to right bottom, #434343 0%, black 100%);
+    box-shadow: 12px 10px 14px 0px rgba(30,60,91,0.84);
+}
+
+
+
+
+/*test area*/
+.hero-disc {
+    font-size: 2.2rem;
+}
+.menu-drink-card {
+    background: linear-gradient(to right bottom, #434343 0%, black 100%);
+    box-shadow: 12px 10px 14px 0px rgba(30,60,91,0.84);
+    transition: all .15s linear;
+}
+.menu-drink-card:hover{
+    scale: 1.03;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel {
+    border: solid white;
+}
+.verifiedcustomer {
+    margin-bottom: .5em;
+    color: black;
+}
+
+
+
+
+
+
+
+
+                                     /* FINAL PRODUCTION */
+
+/* NAVBAR */
+.navbar {
+    background-color: #0cbaba;
+    background-image: linear-gradient(to right top, rgb(215, 228, 215, .8), rgb(157, 186, 177, .8), rgb(101, 144, 148, .8), rgb(56, 102, 121, .8), rgb(30, 60, 91, .8)), url(../images/great-wave-kanagawa.jpg);
+    transition: box-shadow .15s linear .1s;
+}
+.navbar:hover {
+    box-shadow: 12px 10px 14px 3px rgba(30,60,91,0.84);
+
+}
+
+@media (min-width: 990px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--navbar-width);
+        background: linear-gradient(to right, #434343 0%, black 100%);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .navbar-brand img {
+        border: 5px solid #1E3C5B;
+        box-shadow: 8px 9px 14px 0px rgba(30,60,91,0.84);
+    }
+
+    #content-wrapper {
+        padding-left: var(--navbar-width);
+    }
+}
+
+.nav-link {
+    color: rgb(175, 180, 185);
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #0cbaba;
+}
+ul {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.rewards-login {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(175, 180, 185);
+    transition: all .15s linear;
+}
+.rewards-login:hover {
+    text-decoration: underline;
+    color: #0cbaba;
+    scale: 1.2;
+
+}
+/* //NAVBAR */
+
+/* HERO SECTION */
+.push-btn {
+    background-image: linear-gradient(to right bottom, rgba(32, 22, 92, 0.9), rgb(30, 60, 91, .9));
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    margin-right: 40px;
+}
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background-image: linear-gradient(to right bottom, rgb(215, 228, 215, .8), rgb(157, 186, 177, .8), rgb(101, 144, 148, .8), rgb(56, 102, 121, .8), rgb(30, 60, 91, .8)), url(../images/great-wave-kanagawa.jpg);
+    background-position: center;
+    background-size: contain;
+    color: black;
+    font-weight: bold;
+    transform: translateY(-6px);
+}
+.push-btn:active .front {
+    transform: translateY(-2px);
+}
+.call-link {
+    color: #D7D5C1;
+    font-size: 1.3em;
+}
+.call-link:hover {
+    color: rgb(218, 213, 213);
+}
+/* //HERO SECTION */
+
+
+/* TOOLKIT */
+.toolkit-icon-container {
+    background-image: linear-gradient(to right bottom, rgb(215, 228, 215, .8), rgb(157, 186, 177, .8), rgb(101, 144, 148, .8), rgb(56, 102, 121, .8), rgb(30, 60, 91, .8));
+    width: 60px;
+    height: 60px;
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.toolkit-card {
+    background: linear-gradient(to right bottom, #434343 0%, black 100%);
+    transition: box-shadow .15s linear;
+}
+.toolkit-card:hover {
+    box-shadow: 12px 10px 14px 0px rgba(30,60,91,0.84);
+}
+/* //TOOLKIT */
+
+
+/* CONTACT SECTION */
+.shadow {
+    box-shadow: 12px 10px 14px 0px rgba(30,60,91,0.84);
+
+}
+.sub-btn {
+    border: none;
+
+}
+.sub-btn:hover {
+    color: blue;
+}
+/* //CONTACT SECTON */
+
+.form-label {
+    color: white;
+}
+
+/* FOOTER SECTION */
+footer {
+    background: linear-gradient(to right, #434343 0%, black 100%);
+
+}
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #D7D5C1;
+    background-image: linear-gradient(to right top, #74797a, #5b6b70, #435c69, #2e4c62, #1e3c5b);
+    border-radius: 100px;
+    font-size: 24px;
+}
+/* //FOOTER SECTION */
