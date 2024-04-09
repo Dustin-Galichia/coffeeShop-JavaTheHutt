@@ -89,8 +89,7 @@ img {
 
 /* NAVBAR */
 .navbar {
-    background-color: #0cbaba;
-    background-image: linear-gradient(to right top, rgb(215, 228, 215, .8), rgb(157, 186, 177, .8), rgb(101, 144, 148, .8), rgb(56, 102, 121, .8), rgb(30, 60, 91, .8)), url(../images/great-wave-kanagawa.jpg);
+    background-color: #043d3d;
     transition: box-shadow .15s linear .1s;
 }
 .navbar:hover {
@@ -157,7 +156,7 @@ ul {
     padding: 12px 42px;
     border-radius: 12px;
     font-size: 1.25rem;
-    background-image: linear-gradient(to right bottom, rgb(215, 228, 215, .8), rgb(157, 186, 177, .8), rgb(101, 144, 148, .8), rgb(56, 102, 121, .8), rgb(30, 60, 91, .8)), url(../images/great-wave-kanagawa.jpg);
+    background-image: linear-gradient(to right bottom, rgb(215, 228, 215, .8), rgb(157, 186, 177, .8), rgb(101, 144, 148, .8), rgb(56, 102, 121, .8), rgb(30, 60, 91, .8));
     background-position: center;
     background-size: contain;
     color: black;
@@ -176,25 +175,6 @@ ul {
 }
 /* //HERO SECTION */
 
-
-/* TOOLKIT */
-.toolkit-icon-container {
-    background-image: linear-gradient(to right bottom, rgb(215, 228, 215, .8), rgb(157, 186, 177, .8), rgb(101, 144, 148, .8), rgb(56, 102, 121, .8), rgb(30, 60, 91, .8));
-    width: 60px;
-    height: 60px;
-    display: flex;
-    font-size: 32px;
-    align-items: center;
-    justify-content: center;
-}
-.toolkit-card {
-    background: linear-gradient(to right bottom, #434343 0%, black 100%);
-    transition: box-shadow .15s linear;
-}
-.toolkit-card:hover {
-    box-shadow: 12px 10px 14px 0px rgba(30,60,91,0.84);
-}
-/* //TOOLKIT */
 
 
 /* CONTACT SECTION */
